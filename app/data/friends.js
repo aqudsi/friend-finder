@@ -1,0 +1,86 @@
+
+var friends = [
+  {
+      "name":"Brad",
+      "photo":"https://hairstyleonpoint.com/wp-content/uploads/2014/12/brad-pitt-inglorious-basterds-hairstyle.jpg",
+      "scores":[
+         5,
+         1,
+         4,
+         4,
+         5,
+         1,
+         2,
+         5,
+         4,
+         1
+          ]
+      },
+  {
+  "name":"Chad",
+  "photo":"http://www.prospershow.com/wp-content/uploads/2017/06/Chad-Rogers.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     4,
+     5,
+     1,
+     2,
+     5,
+     4,
+     1
+      ]
+},
+{
+  "name":"Vanessa",
+  "photo":"https://blogs-images.forbes.com/vanessamcgrady/files/2017/01/Vanessa-McGrady_avatar_1485306303-400x400.jpg",
+  "scores":[
+     9,
+     1,
+     4,
+     4,
+     5,
+     1,
+     2,
+     5,
+     4,
+     1
+      ]
+},
+{
+  "name":"Katrina",
+  "photo":"http://geodavephotography.com/images/katrina-kaif-hd-images/36052041-katrina-kaif-hd-images.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Melanie",
+  "photo":"https://www.melanietillbrook.com/wp-content/uploads/2016/03/Fitness3-400x400.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+]
+
+// Note how we export the array. This makes it accessible to other files using require.
+module.exports = friends;
