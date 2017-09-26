@@ -1,0 +1,1 @@
+This is an app built using node and express, that has the user take a survey and matches them with someone with a similar score. The user's name, survey score, and picture is then stored in an API for future users to potentially match with. This application is hosted on Heroku, here is the link: https://friend-finder-79483.herokuapp.com/
